@@ -16,13 +16,3 @@ const Popup = (props) => {
 };
 
 export default Popup;
-
-//  {/* <Popup popupOpen={this.state.popupOpen} onClose={this.closePopup}>
-//             <h3>Öffnungszeiten</h3>
-//             <h4>Montag - Freitag</h4>
-//             <p>07:00 - 18:00 Uhr</p>
-//             <h4>Samstag</h4>
-//             <p>08:00 - 12:00 Uhr</p>
-//             <h4>Sonntag</h4>
-//             <p>geschlossen</p>
-//           </Popup> */}

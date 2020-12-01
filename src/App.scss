@@ -3,8 +3,6 @@
     height: 100%;
     width: 100%;
     text-align: center;
-    // background-image: url('/img/pawel-kozak-kCB97plbcEg-unsplash.jpg');
-    // background-size: cover;
     position: relative;
     color: black;
     .main {
@@ -28,13 +26,4 @@
 
 .hidden {
     display: none;
-}
-
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
 }

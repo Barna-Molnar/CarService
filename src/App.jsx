@@ -5,8 +5,6 @@ import Footer from "./Footer";
 import Contact from "./Contact";
 import LandingPage from "./LandingPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
-// import Popup from "./Popup";
 import MyModal from "./MyModal";
 
 class App extends React.Component {
@@ -34,12 +32,7 @@ class App extends React.Component {
     return (
       <Router>
         <div className="App">
-          {/* <Button variant="primary" onClick={this.openPopup}>
-            Launch vertically centered modal
-          </Button> */}
-
           <MyModal show={this.state.popupOpen} onHide={this.closePopup} />
-
           <FixedMenu />
           <section className="main">
             <Switch>

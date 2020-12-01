@@ -1,4 +1,5 @@
 @import '/mixins.scss';
+@import '/variables.scss';
 :root {
     --color-primary: #eb2f64;
     --color-primary-light: #FF3366;
@@ -58,8 +59,8 @@ code {
 }
 
 ::selection {
-    background-color: red;
-    color: yellow;
+    background-color: #777;
+    color: $color-secondary;
 }
 
 #root {

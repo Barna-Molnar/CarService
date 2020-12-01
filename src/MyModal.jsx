@@ -1,6 +1,5 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
-import { Button } from "react-bootstrap";
 import "./MyModal.scss";
 
 function MyModal(props) {
@@ -25,13 +24,7 @@ function MyModal(props) {
         <h4>Sonntag</h4>
         <p>geschlossen</p>
       </Modal.Body>
-      {/* <Modal.Footer>
-        <Button onClick={props.onHide} className="myCloseBtn">
-          Close
-        </Button>
-      </Modal.Footer> */}
     </Modal>
   );
 }
-
 export default MyModal;

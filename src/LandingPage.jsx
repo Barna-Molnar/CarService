@@ -5,7 +5,6 @@ import "./LandingPage.scss";
 import TextBox from "./TextBox";
 import Article from "./Article";
 import Carousel from "react-bootstrap/Carousel";
-import Scrollchor from "react-scrollchor";
 
 class LandingPage extends React.Component {
   constructor(props) {
