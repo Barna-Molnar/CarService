@@ -1,0 +1,72 @@
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 7rem;
+    width: 100%;
+    color: #444;
+    background-image: linear-gradient(to right, rgba(#777, .4), rgba(white, .8)20%, rgba(white, .8) 80%, rgba(#777, .4));
+    background-color: white;
+    box-shadow: 0 4px 2px 4px rgba(0, 0, 0, .2);
+    .footer-contact {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.4rem;
+        width: 75%;
+        p {
+            margin: 0 .5rem;
+        }
+        f .telephone {
+            transition: all .3s ease;
+        }
+        .telephone:hover {
+            transform: rotate(1deg) scale(1.1);
+        }
+        .fax {
+            transition: all .3s ease;
+        }
+        .fax:hover {
+            transform: rotate(1deg) scale(1.1);
+        }
+        .email {
+            a {
+                &:link,
+                &:visited {
+                    color: #444;
+                    transition: all .2s ease;
+                    display: inline-block;
+                }
+                &:hover,
+                &:active {
+                    // background-color: transparent;
+                    // transform: rotate(1deg) scale(1.1);
+                }
+            }
+        }
+    }
+    .footer-daten-secure {
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        p {
+            margin-bottom: 0;
+            span {
+                font-size: 1.4rem;
+            }
+            a {
+                color: #444;
+                font-size: 1.4rem;
+                display: inline-block;
+                transition: all .4s ease;
+                &:hover,
+                &:active {
+                    background-color: transparent;
+                    // transform: rotate(1deg) scale(1.1);
+                }
+            }
+        }
+    }
+}

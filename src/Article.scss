@@ -1,0 +1,32 @@
+.article {
+    padding: 5rem 20rem;
+    background-color: white;
+    h1 {
+        font-size: 3rem;
+        letter-spacing: .5rem;
+        margin-bottom: 5rem;
+    }
+    .article-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 7rem;
+        .div-img {
+            display: grid;
+            justify-content: flex-start;
+            width: 25rem;
+            img {
+                width: 100%;
+            }
+        }
+        .div-text {
+            h2 {
+                font-size: 2.4rem;
+            }
+            font-size: 1.9rem;
+            text-align: justify;
+            .subtitle {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

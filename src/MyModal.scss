@@ -1,0 +1,37 @@
+@import '/variables.scss';
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 600px;
+        margin: 1.75rem auto;
+    }
+}
+
+.myModal-container {
+    text-align: center;
+    .modal-content {
+        border: none;
+        border-radius: 0;
+        background-color: $color-secondary;
+        font-size: 1.6rem;
+        .modal-header {
+            .modal-title {
+                flex: 1;
+                margin-left: 3rem;
+            }
+            padding: 2rem 2rem;
+        }
+        .modal-body {
+            padding: 2rem;
+        }
+        .btn-primary {
+            color: #fff;
+            background-color: rgba(238, 237, 228, 0.671);
+            border-color: #6c757d;
+            color: #444;
+            &:hover {
+                background-color: rgb(230, 224, 217);
+                color: #444;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@import "~bootstrap/scss/bootstrap";
+.App {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    // background-image: url('/img/pawel-kozak-kCB97plbcEg-unsplash.jpg');
+    // background-size: cover;
+    position: relative;
+    color: black;
+    .main {
+        padding-top: 8rem;
+        padding-bottom: 7rem;
+        color: #444;
+        height: 100%;
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 1100;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
