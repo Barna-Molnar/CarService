@@ -4,6 +4,7 @@ import React from "react";
 import "./LandingPage.scss";
 import TextBox from "./TextBox";
 import Article from "./Article";
+import Togglermenu from "./TogglerMenu";
 import Carousel from "react-bootstrap/Carousel";
 
 class LandingPage extends React.Component {
@@ -67,8 +68,8 @@ class LandingPage extends React.Component {
             btnOnClick={this.props.openPopup}
           >
             <h1>kfz-service in sulzbach murr</h1>
-            <h2>Ihr partner für service rund um's auto</h2>
-            <h2>Mit uns fahren Sie besser</h2>
+            <h3>Ihr partner für service rund um's auto</h3>
+            <h5>Mit uns fahren Sie besser</h5>
           </TextBox>
           <div className="parallax" ref={this.myRef}>
             <Carousel

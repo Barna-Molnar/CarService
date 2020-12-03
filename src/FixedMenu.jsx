@@ -1,7 +1,7 @@
 import React from "react";
 import "./FixedMenu.scss";
 import { Link } from "react-router-dom";
-import Scrollchor from "react-scrollchor";
+import Togglermenu from "./TogglerMenu";
 
 const FixedMenu = () => {
   return (
@@ -12,6 +12,7 @@ const FixedMenu = () => {
       <div className="fixed-menu-name">
         <h1>Uwe Shäf KFZ MeisterBetrieb</h1>
       </div>
+
       <div className="fixed-menu-menu">
         <ul className="grid-menu">
           <li className="grid-menu-item">
@@ -36,6 +37,7 @@ const FixedMenu = () => {
           </li>
         </ul>
       </div>
+      {/* <Togglermenu /> */}
     </section>
   );
 };
