@@ -23,6 +23,7 @@
         justify-content: space-evenly;
         align-items: center;
         padding: 0;
+        grid-gap: 0;
     }
     &-logo {
         height: 8rem;
@@ -50,12 +51,14 @@
             align-items: center;
             margin-top: 2rem;
         }
+        @include respond(phone-mini) {
+            margin-top: 1rem;
+        }
     }
     &-menu {
         height: 100%;
-        @include respond(phone) {
-            margin-bottom: 2rem;
-        }
+        width: 100%;
+        @include respond(phone) {}
         .grid-menu {
             height: 100%;
             display: grid;
@@ -66,6 +69,12 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+            }
+            @include respond(tab-port) {
+                justify-content: space-evenly;
+            }
+            @include respond(phone-mini) {
+                grid-gap: 0;
             }
             &-item {
                 height: 100%;
@@ -80,6 +89,7 @@
                         transform: scale(.95);
                         transition: transform .3s;
                         @media only screen and (max-width: 68.75em) {}
+                        @include respond(phone-mini) {}
                     }
                     // font-family: sans-serif;
                     color: #444;
@@ -93,6 +103,9 @@
                     font-size: 2rem;
                     padding: 1rem 2rem;
                     transition: all .2s ease;
+                    @include respond(phone-mini) {
+                        padding: .5rem 1rem;
+                    }
                     &:hover {
                         background-color: $color-secondary;
                         color: #333;

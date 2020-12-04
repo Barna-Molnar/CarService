@@ -1,29 +1,42 @@
 // @import '/animations.scss';
-// @import '/variables.scss';
+@import '/mixins.scss';
 .textBox {
     &-container {
+        width: 50rem;
         animation: grow 2s cubic-bezier(0.215, 0.610, 0.355, 1);
         position: absolute;
         left: 50%;
-        top: 40%;
+        top: 50%;
         transform: translate(-50%, -50%);
         z-index: 10;
     }
     &-text {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 4rem;
+        letter-spacing: .5rem;
+        margin-bottom: 2rem;
         h1 {
             font-size: 5rem;
-            font-weight: 700;
+            font-weight: 600;
+            @include respond (phone-mini) {
+                font-size: 4rem;
+            }
             // background-image: linear-gradient(to right, blue, $color-secondary);
             // display: inline-block;
             // -webkit-background-clip: text;
             // background-clip: text;
             // color: transparent;
         }
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 4rem;
-        letter-spacing: .5rem;
-        margin-bottom: 2rem;
+        h3 {
+            font-weight: bold;
+        }
+        h5 {
+            display: block;
+            @include respond (phone-mini) {
+                display: none;
+            }
+        }
     }
     &-btn-openContact {
         font-size: 1.6rem;
