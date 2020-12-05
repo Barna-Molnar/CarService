@@ -1,80 +1,81 @@
-@import '/mixins.scss';
-.parallax {
-    height: 100%;
-    &>* {
-        /* Position the pseudo-element to fill the parent */
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        /* Move the element back then scale the element, it helps to appears more slowly */
-        transform: translateZ(-1px) scale(1.5);
-        /* Set the parallax section before the other elements. */
-        z-index: -1;
-    }
-}
-
-.myIndicators {
-    justify-content: center;
-    width: 100%;
-    bottom: 2rem;
-    position: absolute;
-    z-index: 10;
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: auto auto auto;
-    .indicator {
-        height: 2px;
-        width: 3.5rem;
-        background-color: var(--color-grey-dark-2);
-    }
-    .active {
-        background-color: var(--color-grey-light-1);
-    }
-}
-
-.nemtudom {
-    height: 100%;
-    perspective: 2px;
-    position: relative;
-    overflow-x: hidden;
-    z-index: 0;
-    .carousel {
-        background-color: #444;
-        height: calc(100%);
-    }
-    .carousel-inner {
+    @import '/mixins.scss';
+    .parallax {
         height: 100%;
-    }
-    .carousel-item {
-        position: relative;
-        overflow: hidden;
-        img {
+        &>* {
+            /* Position the pseudo-element to fill the parent */
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            /* Move the element back then scale the element, it helps to appears more slowly */
+            transform: translateZ(-1px) scale(1.5);
+            /* Set the parallax section before the other elements. */
+            z-index: -1;
         }
+    }
+    
+    .myIndicators {
+        justify-content: center;
+        width: 100%;
+        bottom: 2rem;
+        position: absolute;
+        z-index: 10;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: auto auto auto;
+        .indicator {
+            height: 2px;
+            width: 3.5rem;
+            background-color: var(--color-grey-dark-2);
+        }
+        .active {
+            background-color: var(--color-grey-light-1);
+        }
+    }
+    
+    .nemtudom {
         height: 100%;
-        .carousel-img {
-            display: block;
+        perspective: 2px;
+        position: relative;
+        overflow-x: hidden;
+        z-index: 0;
+        .carousel {
+            background-color: #444;
+            height: calc(100%);
+        }
+        .carousel-inner {
             height: 100%;
         }
+        .carousel-item {
+            position: relative;
+            overflow: hidden;
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            height: 100%;
+            .carousel-img {
+                display: block;
+                height: 100%;
+            }
+        }
+        .transparent {
+            background-color: transparent;
+        }
+        .mesh {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAQAAAAD+Fb1AAAAEklEQVR42mNg+M8AAhASDUClAEXeA/1LlYqzAAAAAElFTkSuQmCC);
+            opacity: .75;
+            background-size: 3px 3px;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            z-index: 9;
+        }
+        .service {
+            z-index: 20;
+            background-color: rgba(196, 193, 184, .3);
+        }
     }
-    .transparent {
-        background-color: transparent;
-    }
-    .mesh {
-        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAQAAAAD+Fb1AAAAEklEQVR42mNg+M8AAhASDUClAEXeA/1LlYqzAAAAAElFTkSuQmCC);
-        opacity: .75;
-        background-size: 3px 3px;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        z-index: 9;
-    }
-    .service {
-        background-color: rgba(196, 193, 184, .3);
-    }
-}
