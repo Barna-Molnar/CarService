@@ -4,8 +4,8 @@ import React from "react";
 import "./LandingPage.scss";
 import TextBox from "./TextBox";
 import Article from "./Article";
-import Togglermenu from "./TogglerMenu";
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "react-scroll";
 
 class LandingPage extends React.Component {
   constructor(props) {
@@ -85,7 +85,7 @@ class LandingPage extends React.Component {
                 [].forEach.call(next, (node) => {
                   node.classList.remove("active");
                 });
-                console.log(next);
+                // console.log(next);
 
                 this.setState({
                   activeIndex: index,
@@ -139,8 +139,8 @@ class LandingPage extends React.Component {
             </Article>
           </section>
 
-          <section className="service">
-            <div className="service-container" id="leistungen">
+          <section className="service" id="leistungen">
+            <div className="service-container">
               <Article
                 transparent={true}
                 pictureFirst={false}

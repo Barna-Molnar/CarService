@@ -17,6 +17,7 @@ class App extends React.Component {
     this.openPopup = this.openPopup.bind(this);
     this.closePopup = this.closePopup.bind(this);
   }
+
   openPopup() {
     this.setState({
       popupOpen: true,

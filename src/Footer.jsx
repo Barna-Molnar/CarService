@@ -5,7 +5,7 @@ import "./Footer.scss";
 class Footer extends React.Component {
   render() {
     return (
-      <div className="container-footer">
+      <div className="container-footer" id="footer">
         <div className="footer-contact">
           <p className="telephone">0123456</p>
           <p className="fax">0123456</p>
