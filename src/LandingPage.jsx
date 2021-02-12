@@ -189,7 +189,7 @@ class LandingPage extends React.Component {
                   alias beatae. Fuga sapiente itaque dolorem voluptates sunt?
                   Totam, temporibus natus laudantium fuga odit ad consequuntur
                   accusamus id, necessitatibus quod harum ex ratione dolorum
-                  tempora.
+                  tempora!
                 </p>
               </Article>
 
