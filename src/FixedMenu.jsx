@@ -1,14 +1,14 @@
 import React from "react";
 import "./FixedMenu.scss";
-import { Link } from "react-router-dom";
-import Togglermenu from "./TogglerMenu";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 
-const FixedMenu = () => {
+const FixedMenu = (props) => {
   return (
     <section className="fixed-menu">
       <div className="fixed-menu-logo">
-        <img src="/img/logo.svg" alt="" srcset="" />
+        <img srcSet="/img/logo.svg" alt="" />
       </div>
+
       <div className="fixed-menu-name">
         <h1>Uwe Shäf KFZ MeisterBetrieb</h1>
       </div>
@@ -21,19 +21,31 @@ const FixedMenu = () => {
             </a>
           </li>
           <li className="grid-menu-item">
-            <a href="/#leistungen">
+            <NavLink
+              activeClass="active"
+              to="/#leistungen"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
               <span>Leistungen</span>
-            </a>
+            </NavLink>
           </li>
           <li className="grid-menu-item">
-            <a href="/#about">
+            <NavLink
+              activeClass="active"
+              to="/#about"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
               <span>Über uns</span>
-            </a>
+            </NavLink>
           </li>
           <li className="grid-menu-item">
-            <Link to="/contact">
+            <a href="/contact">
               <span>Kontankt</span>
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
