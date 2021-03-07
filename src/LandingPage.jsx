@@ -94,7 +94,7 @@ class LandingPage extends React.Component {
               <Carousel.Item interval={1500}>
                 <img
                   className="carousel-img"
-                  src="/img/audir8.png"
+                  src="img/audir8.png"
                   alt="First slide"
                 />
                 <Carousel.Caption></Carousel.Caption>
@@ -102,7 +102,7 @@ class LandingPage extends React.Component {
               <Carousel.Item interval={3500} style={{}}>
                 <img
                   className="carousel-img"
-                  src="/img/audia5.png"
+                  src="img/audia5.png"
                   alt="Third slide"
                 />
                 <Carousel.Caption></Carousel.Caption>
@@ -110,7 +110,7 @@ class LandingPage extends React.Component {
               <Carousel.Item interval={1500} style={{}}>
                 <img
                   className="carousel-img"
-                  src="/img/factory.png"
+                  src="img/factory.png"
                   alt="Third slide"
                 />
                 <Carousel.Caption>
@@ -125,7 +125,7 @@ class LandingPage extends React.Component {
               pictureFirst={true}
               title="Herzlich Willkomen bei der Uwe Schäf KFZ meisterbetrieb"
               subTitle=""
-              image="/img/place.jpeg"
+              image="img/place.jpeg"
             >
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
@@ -145,7 +145,7 @@ class LandingPage extends React.Component {
                 pictureFirst={false}
                 title=""
                 subTitle="Leistungen"
-                image="/img/car-service.png"
+                image="img/car-service.png"
               >
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -163,7 +163,7 @@ class LandingPage extends React.Component {
                 pictureFirst={true}
                 title=""
                 subTitle="Leistungen"
-                image="/img/car-service.png"
+                image="img/car-service.png"
               >
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -180,7 +180,7 @@ class LandingPage extends React.Component {
                 pictureFirst={false}
                 title=""
                 subTitle="Leistungen"
-                image="/img/car-service.png"
+                image="img/car-service.png"
               >
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -198,7 +198,7 @@ class LandingPage extends React.Component {
                 pictureFirst={true}
                 title=""
                 subTitle="Leistungen"
-                image="/img/car-service.png"
+                image="img/car-service.png"
               >
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -215,7 +215,7 @@ class LandingPage extends React.Component {
                 pictureFirst={false}
                 title=""
                 subTitle="Leistungen"
-                image="/img/car-service.png"
+                image="img/car-service.png"
               >
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -232,7 +232,7 @@ class LandingPage extends React.Component {
                 pictureFirst={true}
                 title=""
                 subTitle="Leistungen"
-                image="/img/car-service.png"
+                image="img/car-service.png"
               >
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -249,7 +249,7 @@ class LandingPage extends React.Component {
                 pictureFirst={false}
                 title=""
                 subTitle="Leistungen"
-                image="/img/car-service.png"
+                image="img/car-service.png"
               >
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
