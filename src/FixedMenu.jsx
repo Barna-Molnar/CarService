@@ -6,7 +6,7 @@ const FixedMenu = (props) => {
   return (
     <section className="fixed-menu">
       <div className="fixed-menu-logo">
-        <img srcSet="/img/logo.svg" alt="" />
+        <img srcSet="img/logo.svg" alt="" />
       </div>
 
       <div className="fixed-menu-name">
@@ -43,7 +43,7 @@ const FixedMenu = (props) => {
             </NavLink>
           </li>
           <li className="grid-menu-item">
-            <a href="/contact">
+            <a href="contact">
               <span>Kontankt</span>
             </a>
           </li>

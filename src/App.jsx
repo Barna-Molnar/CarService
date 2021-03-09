@@ -40,7 +40,7 @@ class App extends React.Component {
               <Route path="/contact">
                 <Contact />
               </Route>
-              <Route path="/">
+              <Route path="">
                 <LandingPage openPopup={this.openPopup} />
               </Route>
             </Switch>
