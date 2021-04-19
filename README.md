@@ -3,7 +3,7 @@
 This is a Car Service website template .
 
 ## Motivation
-I wanted to creat a landingPage for my car mechanic.
+I wanted to create a landingPage for my car mechanic.
 
 
 ## Tech/framework used
