@@ -7,7 +7,7 @@ I wanted to creat a landingPage for my car mechanic.
 
 
 ## Tech/framework used
-React, React-router-dom, react-bootstrap,google maps API, Html, JSX, Css, Scss, JS.
+React, React-router-dom, react-bootstrap,react-carousel with parallax effect, google maps API, Html, JSX, Css, Scss, JS.
 
 <b>Built with</b>
 - [Create-React-App]
