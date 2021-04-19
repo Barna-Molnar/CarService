@@ -22,9 +22,6 @@ There is a main page about the garage and its features  and the contact page wit
 The project can be seen : [GitHub Pages](https://barna-molnar.github.io/CarService/).
 
 
-In the database I have ceated 4 accounts and they can be used in the app.You can log in only with the usernames, there is not any password provided.  
-
-
 
 
 
